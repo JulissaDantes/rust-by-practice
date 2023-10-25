@@ -84,7 +84,7 @@ In the previous section, we have mentioned that `for` will apply the `into_iter`
 `into_iter`, `iter`, `iter_mut`, all of them can convert a collection into iterator, but in different ways.
 
 - `into_iter` consumes the collection, once the collection has been consumed, it is no longer available for reuse, because its ownership has been moved within the loop.
-- `iter`, this borrows each element of the collection through each iteration, thus leaving the collection untouched and available for reuse after the loop
+- `iter`, this borrows each element of the collection through each iteration, thus leaving the collection untouched and available for reuse after the loop.
 - `iter_mut`, this mutably borrows each element of the collection, allowing for the collection to be modified in place.
 
 
